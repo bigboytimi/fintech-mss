@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="switch-auth-service" />
+      </profile>
+      <profile name="Annotation profile for switch-onboarding-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="switch-middleware" />
+        <module name="switch-common" />
+        <module name="switch-config-server" />
+        <module name="switch-api-gateway" />
+        <module name="switch-discovery-service" />
+        <module name="fintech" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="onboarding" target="17" />
+      <module name="switch-account-service" target="17" />
+      <module name="switch-bill-payments-service" target="17" />
+      <module name="switch-dashboard-service" target="17" />
+      <module name="switch-transfer-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fintech" options="-parameters" />
+      <module name="onboarding" options="-parameters" />
+      <module name="switch-account-service" options="-parameters" />
+      <module name="switch-api-gateway" options="-parameters" />
+      <module name="switch-auth-service" options="-parameters" />
+      <module name="switch-bill-payments-service" options="-parameters" />
+      <module name="switch-common" options="-parameters" />
+      <module name="switch-config-server" options="-parameters" />
+      <module name="switch-dashboard-service" options="-parameters" />
+      <module name="switch-discovery-service" options="-parameters" />
+      <module name="switch-middleware" options="-parameters" />
+      <module name="switch-transfer-service" options="-parameters" />
+    </option>
+  </component>
+</project>

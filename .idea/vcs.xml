@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/config-repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/switch-api-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/switch-auth-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/switch-common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/switch-config-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/switch-discovery-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/switch-middleware" vcs="Git" />
+  </component>
+</project>
