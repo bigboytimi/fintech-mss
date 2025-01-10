@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/onboarding/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/switch-account-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/switch-api-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/switch-auth-service/src/main/java" charset="UTF-8" />

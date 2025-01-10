@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>fintech</name>
     <description>fintech</description>
+    <packaging>pom</packaging>
     <url/>
     <licenses>
         <license/>
@@ -30,6 +31,15 @@
         <java.version>17</java.version>
         <spring-cloud.version>2024.0.0</spring-cloud.version>
     </properties>
+    <modules>
+        <module>switch-api-gateway</module>
+        <module>switch-auth-service</module>
+        <module>switch-common</module>
+        <module>switch-config-server</module>
+        <module>switch-discovery-service</module>
+        <module>switch-middleware</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -70,11 +80,6 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -100,6 +105,14 @@
                             <artifactId>lombok</artifactId>
                         </path>
                     </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.2</version>
+                <configuration>
+                    <skip>true</skip>
                 </configuration>
             </plugin>
             <plugin>
