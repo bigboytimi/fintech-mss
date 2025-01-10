@@ -1,0 +1,107 @@
+version: '3.8'
+
+services:
+  api-gateway:
+    build:
+      context: .
+      dockerfile: switch-api-gateway/Dockerfile
+    container_name: api-gateway
+    depends_on:
+      - discovery
+      - config-server
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - EUREKA_SERVER_URL=http://discovery:8761/eureka
+      - CONFIG_SERVER_URL=http://config-server:8888
+    networks:
+      - app-network
+
+  auth-service:
+    build:
+      context: .
+      dockerfile: switch-auth-service/Dockerfile
+    container_name: auth-service
+    depends_on:
+      - discovery
+      - config-server
+      - mysql
+    ports:
+      - "8082:8082"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - EUREKA_SERVER_URL=http://discovery:8761/eureka
+      - CONFIG_SERVER_URL=http://config-server:8888
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/fintechDB
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+    networks:
+      - app-network
+
+  middleware:
+    build:
+      context: .
+      dockerfile: switch-middleware/Dockerfile
+    container_name: middleware
+    depends_on:
+      - discovery
+      - config-server
+      - mysql
+    ports:
+      - "8085:8085" # Middleware Service
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - EUREKA_SERVER_URL=http://discovery:8761/eureka
+      - CONFIG_SERVER_URL=http://config-server:8888
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/switchDB
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+    networks:
+      - app-network
+
+  config-server:
+    build:
+      context: .
+      dockerfile: switch-config-server/Dockerfile
+    container_name: config-server
+    depends_on:
+      - discovery
+    ports:
+      - "8888:8888"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - EUREKA_SERVER_URL=http://discovery:8761/eureka
+    networks:
+      - app-network
+
+  discovery:
+    build:
+      context: .
+      dockerfile: switch-discovery-service/Dockerfile
+    container_name: discovery
+    ports:
+      - "8761:8761"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - app-network
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: switchDB
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+
+volumes:
+  mysql-data:
