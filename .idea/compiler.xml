@@ -10,8 +10,8 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
-        <module name="switch-config-server" />
         <module name="switch-middleware" />
+        <module name="switch-config-server" />
         <module name="switch-api-gateway" />
         <module name="switch-discovery-service" />
         <module name="switch-auth-service" />

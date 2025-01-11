@@ -8,6 +8,10 @@
       <change afterPath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/exception/ApiException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/exception/ErrorResponse.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/controller/api/BillPaymentControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/controller/api/FundTransferControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/controller/api/OnboardingControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/controller/api/UserDashboardControllerApi.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/response/APIResponse.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/exception/ApiException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/exception/ErrorResponse.java" afterDir="false" />
@@ -18,11 +22,16 @@
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/AuthUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/DateUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/JsonConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-api-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/switch-config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-config-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-middleware" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-middleware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/SwitchOnboardingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/SwitchOnboardingServiceApplication.java" afterDir="false" />
@@ -71,6 +80,8 @@
       <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/impl/OnboardingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/impl/OnboardingServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/impl/ValidationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/impl/ValidationServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/utils/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +91,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -91,7 +102,7 @@
         <entry key="$PROJECT_DIR$/switch-middleware" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/switch-middleware" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/switch-config-server" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -121,10 +132,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/fintech",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_opened_file_path": "/Users/decagon/IdeaProjects/fintech/switch-middleware/src/main/java/com/interswitch/switchmiddleware",
     "node.js.detected.package.eslint": "true",
@@ -154,6 +170,7 @@
       <recent name="$PROJECT_DIR$/switch-middleware" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.interswitch.switchmiddleware.controller" />
       <recent name="com.interswitch.switchonboardingservice.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -171,7 +188,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SwitchApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.SwitchConfigServerApplication">
     <configuration name="FintechApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="fintech" />
@@ -289,7 +306,7 @@
       <workItem from="1736584569418" duration="2700000" />
       <workItem from="1736587370885" duration="77000" />
       <workItem from="1736587455978" duration="364000" />
-      <workItem from="1736587957140" duration="2837000" />
+      <workItem from="1736587957140" duration="5162000" />
     </task>
     <task id="LOCAL-00001" summary="impl for fintech mss">
       <option name="closed" value="true" />
