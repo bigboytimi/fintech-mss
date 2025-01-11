@@ -22,13 +22,13 @@
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/AuthUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/DateUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/JsonConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-api-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-config-server" beforeDir="false" afterPath="$PROJECT_DIR$/switch-config-server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-config-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/switch-config-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-config-server/src/main/resources/application.yml" afterDir="false" />
@@ -306,7 +306,7 @@
       <workItem from="1736584569418" duration="2700000" />
       <workItem from="1736587370885" duration="77000" />
       <workItem from="1736587455978" duration="364000" />
-      <workItem from="1736587957140" duration="5162000" />
+      <workItem from="1736587957140" duration="5190000" />
     </task>
     <task id="LOCAL-00001" summary="impl for fintech mss">
       <option name="closed" value="true" />
