@@ -5,7 +5,6 @@
     <mapping directory="$PROJECT_DIR$/config-repo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/switch-api-gateway" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/switch-auth-service" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/switch-common" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/switch-config-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/switch-discovery-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/switch-middleware" vcs="Git" />

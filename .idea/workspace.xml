@@ -5,27 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="217ec821-ee07-487e-8a3d-ad3075853ed7" name="Changes" comment="impl for fintech mss">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/exception/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/response/APIResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/exception/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/exception/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/model/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/AuthUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/JsonConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-api-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/switch-common" beforeDir="false" afterPath="$PROJECT_DIR$/switch-common" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/switch-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/switch-common/src/main/java/com/interswitch/switchcommon/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-common/src/main/java/com/interswitch/switchcommon/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/controller/AuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-middleware" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-middleware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fintech-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fintech-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/SwitchOnboardingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/SwitchOnboardingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/constants/SwitchConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/constants/SwitchConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/controller/BillPaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/controller/BillPaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/controller/FundTransferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/controller/FundTransferController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/controller/OnboardingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/controller/OnboardingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/controller/UserDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/controller/UserDashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/TopFiveTransactionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/TopFiveTransactionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/TransactionHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/TransactionHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/request/BankTransactionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/request/BankTransactionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/request/BillTransactionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/request/BillTransactionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/request/CreateAccountRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/request/CreateAccountRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/request/CustomerRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/request/CustomerRegistrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/request/UpdateAccountRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/request/UpdateAccountRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/response/AccountDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/response/AccountDetailsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/response/BankResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/response/BankResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/response/BillerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/response/BillerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/response/BillersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/response/BillersResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/response/CreateAccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/response/CreateAccountResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/response/CustomerRegistrationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/response/CustomerRegistrationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/dto/response/KycServiceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/dto/response/KycServiceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/model/BillTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/model/BillTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/model/TransferTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/model/TransferTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/repository/BillTransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/repository/BillTransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/repository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/repository/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/repository/TransferTransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/repository/TransferTransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/BillPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/BillPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/DashboardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/DashboardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/FundsTransferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/FundsTransferService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/OnboardingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/OnboardingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/ValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/ValidationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/impl/BillPaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/impl/BillPaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/impl/DashboardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/impl/DashboardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/impl/FundsTransferServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/impl/FundsTransferServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/impl/OnboardingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/impl/OnboardingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/service/impl/ValidationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/service/impl/ValidationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchonboardingservice/utils/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/Utilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +91,7 @@
         <entry key="$PROJECT_DIR$/switch-middleware" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/switch-middleware" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -79,9 +124,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/fintech",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/decagon/IdeaProjects/fintech",
+    "last_opened_file_path": "/Users/decagon/IdeaProjects/fintech/switch-middleware/src/main/java/com/interswitch/switchmiddleware",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,11 +147,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware" />
+      <recent name="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils" />
+      <recent name="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/model" />
+      <recent name="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice" />
       <recent name="$PROJECT_DIR$/switch-middleware" />
-      <recent name="$PROJECT_DIR$/switch-discovery-service" />
-      <recent name="$PROJECT_DIR$/switch-config-server" />
-      <recent name="$PROJECT_DIR$/switch-auth-service" />
-      <recent name="$PROJECT_DIR$/switch-middleware/src/main/resources/static" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.interswitch.switchonboardingservice.service" />
@@ -209,7 +254,7 @@
     <configuration name="SwitchOnboardingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="switch-middleware" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.interswitch.switchonboardingservice.SwitchOnboardingServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.interswitch.switchmiddleware.SwitchOnboardingServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,6 +289,7 @@
       <workItem from="1736584569418" duration="2700000" />
       <workItem from="1736587370885" duration="77000" />
       <workItem from="1736587455978" duration="364000" />
+      <workItem from="1736587957140" duration="2837000" />
     </task>
     <task id="LOCAL-00001" summary="impl for fintech mss">
       <option name="closed" value="true" />
