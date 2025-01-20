@@ -22,12 +22,15 @@
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/AuthUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/DateUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware/utils/JsonConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-api-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service/src/main/java/com/interswitch/switchauthservice/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch-auth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-auth-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-config-server" beforeDir="false" afterPath="$PROJECT_DIR$/switch-config-server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/switch-config-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/switch-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/switch-config-server/src/main/resources/application.properties" afterDir="false" />
@@ -102,7 +105,7 @@
         <entry key="$PROJECT_DIR$/switch-middleware" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/switch-config-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/switch-auth-service" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -130,37 +133,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/decagon/IdeaProjects/fintech/switch-middleware/src/main/java/com/interswitch/switchmiddleware",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
-    "spring.configuration.checksum": "3a288f26408ff86f5cc28af38588b3af",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/decagon/IdeaProjects/fintech/switch-middleware/src/main/java/com/interswitch/switchmiddleware&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;46e4e796a3345a4c5b5a6ad843fd394b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/switch-middleware/src/main/java/com/interswitch/switchmiddleware" />
@@ -188,7 +191,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SwitchConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.SwitchAuthServiceApplication">
     <configuration name="FintechApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="fintech" />
@@ -306,7 +309,10 @@
       <workItem from="1736584569418" duration="2700000" />
       <workItem from="1736587370885" duration="77000" />
       <workItem from="1736587455978" duration="364000" />
-      <workItem from="1736587957140" duration="5190000" />
+      <workItem from="1736587957140" duration="10401000" />
+      <workItem from="1736730804274" duration="40000" />
+      <workItem from="1737217997810" duration="218000" />
+      <workItem from="1737365700152" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="impl for fintech mss">
       <option name="closed" value="true" />
